@@ -12,19 +12,21 @@ conda config --add channels conda-forge
 ```sh
 git clone https://github.com/hubentu/r-devel-recipe.git
 cd r-devel-recipe
+git lfs pull
 conda create -n r-devel
 conda activate r-devel
 ```
 
-* Build and install
-From source
+* Build Or install binary version
+
+** From source
 ```sh
 conda install conda-build
 conda build .
 conda install --use-local path/to/r-devel
 ```
 
-Or just install the compiled version
+** Or just install the compiled version
 
 | System         | R-devel                            |
 |----------------|------------------------------------|
