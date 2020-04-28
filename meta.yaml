@@ -1,6 +1,6 @@
 {% set native = 'm2w64-' if win else '' %}
 {% set posix = 'm2-' if win else '' %}
-{% set version = "4.0.0" %}
+{% set version = "4.1.0" %}
 
 package:
   name: r-devel

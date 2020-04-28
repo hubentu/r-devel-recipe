@@ -1,4 +1,4 @@
-# R-devel conda recipe
+# R-devel (4.1.0) conda recipe
 * Forked from [r-base-feedstock](https://github.com/conda-forge/r-base-feedstock.git).
 * Compiled on macOS 10.15.3 and ubuntu 18.04
 
@@ -32,6 +32,7 @@ conda install --use-local path/to/r-devel
 |----------------|------------------------------------|
 | macOS 10.15.3  | `r-devel-4.0.0-hbba0a16_1.tar.bz2` |
 | ubuntu 18.04.4 | `r-devel-4.0.0-hd41c036_1.tar.bz2` |
+| ubuntu 18.04.4 | `r-devel-4.1.0-hd41c036_1.tar.bz2` |
 
 ```sh
 conda install --use-local r-devel-${version}.tar.gz
@@ -41,7 +42,7 @@ conda install libopenblas
 conda install --use-local r-devel-${version}.tar.bz2
 ```
 
-* Use R 4.0
+* Use R 4.1
 ```sh
 conda activate r-devel
 R --version
